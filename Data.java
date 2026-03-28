@@ -1,12 +1,10 @@
-public class Data
-{
-    void getData(int a)
+public class Data {
+    void getdata(int a)
     {
         System.out.println("A="+a);
     }
-    public static void main(String args[])
-    {
+    public static void main(String[] args) {
         Data ob=new Data();
-        ob.getData(10);
+        ob.getdata(10);
     }
 }
